@@ -1,0 +1,13 @@
+
+.list-item{
+    list-style-type: none;
+    text-transform: capitalize;
+}
+.list-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.btn-custom{
+    margin: 3px;
+}
