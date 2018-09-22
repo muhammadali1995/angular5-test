@@ -2,7 +2,6 @@ import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ViewPostComponent } from './view-post/view.post.component';
 import { PostComponent } from './post.component';
-import { resolve } from 'dns';
 import { PostResolver } from './post.resolve';
 import { CreatePostComponent } from './create-post/create-post.component';
 import { UpdatePostComponent } from './update-post/update.post.component';

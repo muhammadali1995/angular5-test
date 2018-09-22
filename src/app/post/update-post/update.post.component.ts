@@ -4,7 +4,6 @@ import { Observable } from "rxjs";
 import { PostService } from "../post.service";
 import { ActivatedRoute } from "@angular/router";
 @Component({
-    moduleId: module.id,
     selector: 'update-post',
     templateUrl: "../create-post/create-post.component.html"
 })

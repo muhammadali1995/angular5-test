@@ -3,7 +3,6 @@ import { Post } from "../post.model";
 import { Observable } from "../../../../node_modules/rxjs";
 import { PostService } from "../post.service";
 @Component({
-    moduleId: module.id,
     selector: 'create-post',
     templateUrl: "create-post.component.html"
 })

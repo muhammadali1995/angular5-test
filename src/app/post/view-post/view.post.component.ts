@@ -8,7 +8,6 @@ import { switchMap } from 'rxjs/operators';
 
 
 @Component({
-    moduleId: module.id,
     selector: 'view-post',
     templateUrl: "view.post.component.html",
     styleUrls: ['view.post.component.css']
