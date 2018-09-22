@@ -11,7 +11,7 @@ export class UpdatePostComponent{
     post: Post;
     submitted = false;
     message = "Updated Successfully"
-    title= "Update Post"
+    titleMessage= "Update Post"
     constructor(private postService: PostService, private route: ActivatedRoute){}
 
     //first fetch the latest version of the post from data base and equalize it to the post and pass it to the form

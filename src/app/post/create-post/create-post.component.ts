@@ -7,10 +7,10 @@ import { PostService } from "../post.service";
     templateUrl: "create-post.component.html"
 })
 export class CreatePostComponent{
-     post: Post = new Post();
+    post: Post = new Post();
     submitted = false;
     message ="Create Successfully";
-    title = "Create New Post";
+    titleMessage = "Create New Post";
 
     constructor(private postService: PostService){}
     
